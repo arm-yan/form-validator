@@ -5,6 +5,10 @@ namespace Armyan\FormValidator\Forms;
 
 use Armyan\FormValidator\AbstractForm;
 
+/**
+ * Class SubscriptionForm
+ * @package Armyan\FormValidator\Forms
+ */
 class SubscriptionForm extends AbstractForm
 {
 

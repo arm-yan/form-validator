@@ -5,8 +5,18 @@ namespace Armyan\FormValidator\Validators;
 
 use Armyan\FormValidator\AbstractValidator;
 
+/**
+ * Class SubscriptionValidator
+ * @package Armyan\FormValidator\Validators
+ */
 class SubscriptionValidator extends AbstractValidator
 {
+    /**
+     * Validate given data with keys and corresponding rules
+     *
+     * @param array $data
+     * @return bool
+     */
     public function validate(array $data) : bool
     {
         $this->emptyErrors();
